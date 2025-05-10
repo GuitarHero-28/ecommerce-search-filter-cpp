@@ -24,6 +24,7 @@ struct Product {
 
 // Function to display products
 void displayProducts(const vector<Product>& products) {
+    cout << "Displaying many products...\n";
     for (const auto& product : products) {
         cout << "-----------------------" << endl;
         cout << "Name: " << product.name << endl;
